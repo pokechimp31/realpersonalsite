@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <title>ProtIV</title>
-        <link rel="icon" type="image/png" href="canvas.png" />
-    </head>
-    <body>
-        <h1>
-            Hello World!
-        </h1>
-        <h2>
-            This domain costs me $10.13 per year.
-        </h2>
-        <h3>
-            <a href="https://github.com/pokechimp31/realpersonalsite" class="btn">My Github</a>
-        </h3>
-        </body>
-        <img src="https://media.tenor.com/Q6z9fuwXLlYAAAAM/stephen-curry-nba.gif" id="curry">
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ProtIV</title>
+    <link rel="icon" type="image/png" href="canvas.png" />
+</head>
+<body>
+    <h1 class="centered">
+        Hello World!
+    </h1>
+    <h2 class="centered">
+        This domain costs $10.13 per year.
+    </h2>
+    <!--Countdown-->
+    <div class="container centered">
+        <p>So far I've spent: $<span id="amount">0.00</span></p>
+        <p>Next cent in: <span id="countdown">08:38:41</span></p>
+    </div>
+    <h3 class="centered">
+        <a href="https://github.com/pokechimp31/realpersonalsite" class="btn">My Github</a>
+    </h3>
+    <!-- Existing image -->
+    <img src="https://media.tenor.com/Q6z9fuwXLlYAAAAM/stephen-curry-nba.gif" id="curry">
+
+    <!-- Link external JavaScript -->
+    <script src="script.js"></script>
+</body>
 </html>

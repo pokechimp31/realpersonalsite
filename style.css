@@ -4,15 +4,10 @@
     object-fit: contain;
 }
 
-h1{
+.centered {
     text-align:center;
 }
-h2{
-    text-align:center;
-}
-h3{
-    text-align:center;
-}
+
 .btn {
     display: inline-block;
     background-color: #38b1b1; /* blue */
