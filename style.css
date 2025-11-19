@@ -18,8 +18,8 @@
     font-weight: bold;
 }
 .btn:hover {
-    background-color: #1b38a4; /* dark blue */
+    background-color: #1b4da4; /* dark blue */
 }
 body {
-  background-color: rgb(175, 216, 201); /* Sets a light blue background for the entire page */
+  background-color: rgb(175, 216, 201); /* Sets a light blue background for the entire page */ 
 }
